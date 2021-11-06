@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.5.0",
+    "axios": "^0.23.0",
+    "framer-motion": "^4.1.17",
+    "next": "11.1.0",
+    "pspdfkit": "^2021.5.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-intersection-observer": "^8.32.1",
+    "react-simple-typewriter": "^3.0.1",
+    "react-toastify": "^8.0.3",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.13.2",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0"
+  }
+}
