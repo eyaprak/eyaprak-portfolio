@@ -22,6 +22,27 @@ import CustomButton from '../components/buttons/CustomButton';
 export const Projects = [
   {
     id: 1,
+    title: '⚛️ NextJS Business Website',
+    description:
+      'This project has been developed using Next.js and Tailwindcss technologies. Tailwindcss was used for styling elements. In this project, the company has 5 pages and some of pages was created using SSG process in order to pre-render the pages at build time.',
+    shortdescription: 'NextJS Business Website App',
+    image: '/images/works/axezisoftware-app.jpg',
+    icons: [<Nextjs />, <Tailwindcss />],
+    buttons: [
+      <CustomButton
+        key='1'
+        link='https://axezisoftware.com/'
+        text='Site Link'
+      />,
+      <CustomButton
+        key='2'
+        link='https://github.com/eyaprak/axezisoftware-website'
+        text='Source Code'
+      />,
+    ],
+  },
+  {
+    id: 2,
     title: '📝 FULL STACK TODO APP ',
     description:
       'This project created with React.js, Node.js, Express.js and MongoDB technologies. Sass used for styling elements. In this project, each user can create, delete and update their todo-list with the login system and also everyone can register to the project.',
@@ -42,7 +63,7 @@ export const Projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: '⚡ GETIR.COM UI DESIGN APP',
     shortdescription: 'Responsive UI Design',
     description:
@@ -63,7 +84,7 @@ export const Projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: '✨HULU.COM UI DESIGN APP',
     shortdescription: 'Responsive UI Design',
     description:
@@ -84,7 +105,7 @@ export const Projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: '⚛️ GITHUB USER APP ',
     shortdescription: 'Full Stack App',
     description:
@@ -105,7 +126,7 @@ export const Projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: '✍️ WRITING SPEED TEST APP ',
     shortdescription: 'React.js & Context API',
     description:
@@ -126,7 +147,7 @@ export const Projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: '💬 REAL TIME CHAT APP ',
     shortdescription: 'Node.js & Socket.io App',
     description:
@@ -147,7 +168,7 @@ export const Projects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: '📖 CHILDREN TALE APP ',
     description:
       "This app created using Flutter/Dart technologies. There are 40 fairy tales and 10 puzzle you can listen to or read. There are also 10 voices that can help kids' sleep. It has added to Google Play Store and got more than 10k+ download since March 2021.",
