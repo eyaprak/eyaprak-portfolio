@@ -14,6 +14,7 @@ import Flutter from './Flutter';
 import GooglePlay from './GooglePlay';
 import DownloadCount from './DownloadCount';
 import Sass from './Sass';
+import RapidAPI from './RapidApi';
 export {
   Nodejs,
   Reactjs,
@@ -31,4 +32,5 @@ export {
   GooglePlay,
   DownloadCount,
   Sass,
+  RapidAPI
 };
